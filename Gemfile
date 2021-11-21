@@ -30,6 +30,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 5.0.0'
+  gem 'irb', require: false
 end
 
 group :development do
@@ -57,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pg'
 gem "slim-rails"
 gem 'devise'
+gem 'active_hash'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
